@@ -1,0 +1,74 @@
+2021-05-13 14:20:04,857 [main] INFO : os.name: Mac OS X
+2021-05-13 14:20:04,860 [main] INFO : user.name: apple
+2021-05-13 14:20:04,860 [main] INFO : user.home: /Users/apple
+2021-05-13 14:20:04,861 [main] INFO : user.timezone: Asia/Bangkok
+2021-05-13 14:20:04,861 [main] INFO : NODE.TTL/Users/apple/Documents/wk27/dip/wfhjava/WFHSRC2/work/.cfg/node.ttl
+2021-05-13 14:20:04,866 [main] INFO : @prefix vp:     <http://ipthailand.go.th/rdf/voc-pred#> .
+@prefix vo:     <http://ipthailand.go.th/rdf/voc-obj#> .
+@prefix nd:     <https://ipthailand.go.th/rdf/node#> .
+
+nd:1        a           vo:PopiNode ;
+            vp:type     vo:MainNode ;
+            vp:owner    nd:2 ;
+            vp:prefix   'com' ;
+            vp:mainrep   'git@gitlab.com:dipwk0/work0.git' ;
+            vp:workrep   'git@gitlab.com:choompol-drnumnet/workdoc.git' ;
+            vp:baseiri   'http://ipthailand.go.th/rdf/itdep/' ;
+            vp:channel  nd:3 ;
+			vp:attend	nd:5 ;
+			vp:gui		nd:4
+.
+nd:2        a           vo:Person ;
+            vp:email    'dipwk0@popiang.com' ;
+            vp:name     'dip-worker0'
+.
+nd:3        a           vo:RecvEmail ;
+            vp:email    'dipcheckin@gmail.com' ;
+            vp:passwd   'ITdip2567' ;
+            vp:imap     'smtp.gmail.com' ;
+            vp:smtp     'smtp.gmail.com' 
+.
+nd:4        a       vo:GuiSetting ;
+            vp:fontName     'Cordia New' ;
+            vp:fontSize     20
+.
+nd:5		a		vo:Attend ;
+			vp:id		'AT0001'
+.
+
+
+2021-05-13 14:20:05,283 [main] INFO : FONT SPECIFIED 12 : https://ipthailand.go.th/rdf/node#4 = Cordia New
+2021-05-13 14:20:05,284 [main] INFO : ATTEND: https://ipthailand.go.th/rdf/node#5
+2021-05-13 14:20:05,284 [main] INFO : ATTID: AT0001
+2021-05-13 14:20:05,285 [main] INFO : prefix: com
+2021-05-13 14:20:05,289 [main] INFO : own dir: /Users/apple/Documents/wk27/dip/wfhjava/WFHSRC2/work/rdf/com : true
+2021-05-13 14:20:05,494 [main] INFO : read model: com01
+2021-05-13 14:20:05,496 [main] INFO : read model: 
+2021-05-13 14:20:05,670 [main] INFO : read model: ev20210511
+2021-05-13 14:20:05,737 [main] INFO : read model: ev20210513
+2021-05-13 14:20:05,887 [main] INFO : read model: ev20210512
+2021-05-13 14:20:05,889 [main] INFO : read model: rg20210504
+2021-05-13 14:20:05,892 [main] INFO : read model: rg20210505
+2021-05-13 14:20:05,894 [main] INFO : read model: rg20210511
+2021-05-13 14:20:05,896 [main] INFO : read model: rg20210507
+2021-05-13 14:20:05,898 [main] INFO : read model: rg20210512
+2021-05-13 14:20:05,899 [main] INFO : read model: rg20210506
+2021-05-13 14:20:05,901 [main] INFO : read model: rg20210502
+2021-05-13 14:20:05,903 [main] INFO : read model: rg20210503
+2021-05-13 14:20:05,905 [main] INFO : read model: rg25640513
+2021-05-13 14:20:05,908 [main] INFO : read model: vo
+2021-05-13 14:20:05,911 [main] INFO : read model: vp
+2021-05-13 14:20:05,969 [main] INFO : =========== PROC =========
+2021-05-13 14:20:06,478 [main] INFO : COMMAND LINE: /Users/apple/Documents/wk27/dip/wfhjava/WFHSRC2/work/bin/darwin/gorecv
+2021-05-13 14:20:06,485 [main] INFO : JAVA START GO RECV...
+2021-05-13 14:20:09,900 [Thread-7] INFO : OUTPUT> ATTENDID: AT0001
+2021-05-13 14:20:09,901 [Thread-7] INFO : OUTPUT> WORK DIR: /Users/apple/Documents/wk27/dip/wfhjava/WFHSRC2/work
+2021-05-13 14:20:09,902 [Thread-7] INFO : OUTPUT> ATTEND FILE: /Users/apple/Documents/wk27/dip/wfhjava/WFHSRC2/work/.cfg/ATTENDID
+2021-05-13 14:20:09,903 [Thread-7] INFO : OUTPUT> Start Receiver...http://dip.popiang.com:8080 /attend/getid
+2021-05-13 14:20:10,153 [Thread-7] INFO : OUTPUT> rcvID[QmVrM7vDM45YMhrGjNBvvzgQt6FaXTnSJLGaoa2gezRAMx]
+2021-05-13 14:20:10,763 [AWT-EventQueue-0] INFO : populate files
+2021-05-13 14:20:10,768 [AWT-EventQueue-0] INFO : populate files
+2021-05-13 14:20:10,769 [AWT-EventQueue-0] INFO : populate files
+2021-05-13 14:20:10,770 [AWT-EventQueue-0] INFO : populate files
+2021-05-13 14:20:25,158 [AWT-EventQueue-0] INFO : getFolds
+2021-05-13 14:20:31,459 [AWT-EventQueue-0] INFO : getFolds
